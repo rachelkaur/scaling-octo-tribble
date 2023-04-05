@@ -1,0 +1,34 @@
+title: Rachel Kaur
+email: hello@rachelkaur.com
+author: ਰੇਚਲ ਕੌਰ
+description: >-
+  descriptive blurb about me.
+baseurl: "/"
+url: "https://rachelkaur.com"
+github_username:  rachelkaur
+# linkedin_username: Janpreet
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+defaults:
+  - scope:
+      path: "assets/"
+    values:
+      images: true
+
+show_excerpts: true 
+
+header_pages:
+  - index.md
+  - about.md
+  - contact.md
+  - resume.md
+  
+permalink: pretty  
+redirect_from:
+  json: false
